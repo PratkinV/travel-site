@@ -1,2 +1,3 @@
+import MobileMenu from './modules/MobileMenu';
 
-alert("test1111");
+var mobileMenu = new MobileMenu(); 
