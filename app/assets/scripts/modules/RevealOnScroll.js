@@ -23,9 +23,9 @@ class RevealOnScroll {
           $(currentItem).addClass("reveal-item--is-visible");
         },
         offset: that.offsetPercentage
-      }); 
+      });
     });
   }
 }
 
-export default RevealOnScroll;
+export default RevealOnScroll; 
