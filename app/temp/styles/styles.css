@@ -740,6 +740,10 @@ a {
   padding-right: 65px;
 }
 
+.row--gutters-no-for-small > div {
+  padding-right: 65px;
+}
+
 .row--gutters-large > div {
   padding-right: 100px;
 }
@@ -754,7 +758,7 @@ a {
 
 @media (max-width: 799px) {
 
-  .row--gutters > div {
+  .row--gutters-no-for-small > div {
     padding-right: 0px;
   }
 }

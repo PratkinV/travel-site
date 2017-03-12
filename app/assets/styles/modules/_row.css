@@ -21,6 +21,10 @@
     &--gutters > div {
         padding-right: 65px;        
     }
+    
+    &--gutters-no-for-small > div {
+        padding-right: 65px;        
+    }
 
      &--gutters-large > div {
         padding-right: 100px;
@@ -35,7 +39,7 @@
     }
 
     @media (max-width: 799px) {
-        &--gutters > div {
+        &--gutters-no-for-small > div {
             padding-right: 0px;
         }
     } 
