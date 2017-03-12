@@ -7,7 +7,7 @@
     }
 
     &--gutters {
-        padding-right: -65px;
+        padding-right: -65px;        
     }
 
     &--gutters-large {
@@ -19,7 +19,7 @@
     }
 
     &--gutters > div {
-        padding-right: 65px;
+        padding-right: 65px;        
     }
 
      &--gutters-large > div {
@@ -34,6 +34,13 @@
         margin-bottom: 1rem;
     }
 
+    @media (max-width: 799px) {
+        &--gutters > div {
+            padding-right: 0px;
+        }
+    } 
+   
+    
     @mixin atMedium {
 
         &__b-margin-until-medium {

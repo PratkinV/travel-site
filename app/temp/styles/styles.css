@@ -752,6 +752,13 @@ a {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 799px) {
+
+  .row--gutters > div {
+    padding-right: 0px;
+  }
+}
+
 @media (min-width: 800px) {
 
   .row__b-margin-until-medium {
